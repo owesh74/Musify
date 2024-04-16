@@ -18,7 +18,7 @@ let currentsong = new Audio();
 
 async function Songs() {
 
-    let laakedo = await fetch("https://owesh74.github.io/Musify/songs/");
+    let laakedo = await fetch("https://owesh74.github.io/Musify/Song.js");
     let response = await laakedo.text();
     // console.log(response)
     let div = document.createElement("div");
